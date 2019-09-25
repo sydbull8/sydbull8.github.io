@@ -10,7 +10,8 @@ h1{
 body{
   max-width: 800px;
   margin: 20px auto;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 .center-top-content{
 text-align: center;
