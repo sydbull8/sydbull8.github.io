@@ -31,7 +31,7 @@ h1 {
 }
 #nav-links{
   max-width: 400 px;
-  margin: 0 auto;
+  margin: 0 auto 20px;
   padding-left: 0;
 }
 #nav-links li{
@@ -40,6 +40,10 @@ h1 {
 #nav-links > li:not(:last-child)::after{
   content: "|";
   margin: 0 .25em;
+}
+.main-content{
+  width: 80%;
+  margin: 0 auto;
 }
 h2{
   font-family: 'Josefin Sans', sans-serif;
@@ -62,10 +66,7 @@ h5{
   font-weight: normal;
   font-style: italic;
 }
-.main-content{
-  width: 80%;
-  text-align: center;
-}
+
 div{
   line-height:
 }
