@@ -1,4 +1,50 @@
 h1{
   font-size: 36px;
   color: #33485e;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 0;
+}
+body{
+  max-width: 800px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.center-top-content{
+text-align: center;
+border-bottom: 5px black;
+}
+h2{
+  font-family: 'Josefin Sans', sans-serif;
+h3{
+   font-family: 'Josefin Sans', sans-serif;
+}
+h4{
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  font-style: italic;
+  color: grey;
+}
+h5{
+  font-family: 'Josefin Sans', sans-serif;
+}
+li {
+  display: inline;
+  padding: 0px;
+  list-style-type: none;
+}
+.main-content{
+  width: 80%;
+  text-align: center;
+}
+div{
+  line-height:
+}
+img{
+  float: right;
+  width: 33%;
 }
