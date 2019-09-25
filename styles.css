@@ -9,8 +9,7 @@ h1{
 }
 body{
   max-width: 800px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px auto;
   font-family: 'Open Sans', sans-serif;
 }
 .center-top-content{
