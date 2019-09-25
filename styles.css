@@ -27,6 +27,19 @@ h1, h2, h3, h4, h5 {
 h1 {
   text-transform: uppercase;
   letter-spacing: 3px;
+  margin-bottom: 0;
+}
+#nav-links{
+  max-width: 400 px;
+  margin: 0 auto;
+  padding-left: 0;
+}
+#nav-links li{
+  display: inline-block;
+}
+#nav-links > li:not(:last-child)::after{
+  content: "|";
+  margin: 0 .25em;
 }
 h2{
   font-family: 'Josefin Sans', sans-serif;
@@ -48,11 +61,6 @@ h5{
   font-family: 'Josefin Sans', sans-serif;
   font-weight: normal;
   font-style: italic;
-}
-li {
-  display: inline;
-  padding: 0px;
-  list-style-type: none;
 }
 .main-content{
   width: 80%;
