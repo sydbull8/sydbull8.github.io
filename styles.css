@@ -28,7 +28,7 @@ body{
   text-align: center;
   color: grey;
   font-style: italic;
-  border: 1px solid grey;
+  border-bottom: 1px solid grey;
 }
 h2{
   font-family: 'Josefin Sans', sans-serif;
