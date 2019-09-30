@@ -4,6 +4,11 @@ body{
   font-family: 'Merriweather Sans', sans-serif;
   font-family: 'Source Sans Pro', sans-serif;
 }
+img {
+  max-width: 600px;
+  width: 100%;
+}
+
 .personal-title {
   font-weight: bold;
   color: grey;
@@ -24,12 +29,14 @@ body{
 h1, h2, h3, h4, h5 {
   font-family: 'Source Sans Pro', sans-serif;
 }
+
 h1 {
-  color: #33485e
+  color: #33485e;
   text-transform: uppercase;
   letter-spacing: 3px;
   margin-bottom: 0;
 }
+
 #nav-links{
   max-width: 400 px;
   margin: 0 auto 20px;
@@ -63,13 +70,18 @@ h1 {
   font-weight: bold;
 }
 h2{
-  font-family: 'Josefin Sans', sans-serif;
   background-color: #33485e;
   color: white;
   padding: 5px;
-  background-color: #33485e;
 }
 
+h4, h5 {
+  font-weight: 400;
+}
+
+h5 {
+  font-style: italic;
+}
 .introduction img{
   float: right;
   width: 33%;
@@ -81,4 +93,7 @@ h2{
 .container-experience{
   margin-top: 5px;
   margin-bottom: 5px;
+}
+.italics {
+  font-style: italic;
 }
