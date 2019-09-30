@@ -38,8 +38,9 @@ h1 {
 }
 
 #nav-links{
-  max-width: 400 px;
+  max-width: 400px;
   margin: 0 auto 20px;
+  padding-left: 15;
 }
 #nav-links li{
   display: inline-block;
@@ -90,9 +91,12 @@ h5 {
   margin-bottom: 20px;
 }
 
-.container-experience{
+.container-experience h2, .container-experience h3, .container-experience h4, .container-experience h5 {
   margin-top: 5px;
   margin-bottom: 5px;
+}
+.container-experience p{
+  font-size: 14px;
 }
 .italics {
   font-style: italic;
