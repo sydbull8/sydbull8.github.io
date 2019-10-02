@@ -8,6 +8,15 @@ img {
   max-width: 600px;
   width: 100%;
 }
+.col-8 {
+  float: right;
+  width: 100%;
+}
+
+.col-4{
+  float: left;
+  width: 100%;
+}
 
 .personal-title {
   font-weight: bold;
