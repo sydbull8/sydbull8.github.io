@@ -12,14 +12,16 @@ img {
   float: right;
   width: 100%;
   margin: 0 auto;
-  padding: 10px;
+  padding: 500px;
+  background-clip: padding-box;
 }
 
 .col-4{
   float: left;
   width: 100%;
   margin: 0 auto;
-  padding: 10px;
+  padding: 500px;
+  background-clip: padding-box;
 }
 
 .personal-title {
