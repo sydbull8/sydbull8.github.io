@@ -11,11 +11,15 @@ img {
 .col-8 {
   float: right;
   width: 100%;
+  margin: 0 auto;
+  padding: 10px;
 }
 
 .col-4{
   float: left;
   width: 100%;
+  margin: 0 auto;
+  padding: 10px;
 }
 
 .personal-title {
