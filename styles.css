@@ -23,19 +23,6 @@ img {
   padding-right: 30px;
   background-clip: padding-box;
 }
-
-.col-7{
-  float: left;
-  margin: 0 auto;
-  background-clip: padding-box;
-}
-
-.col-5{
-  float: right;
-  margin: 0 auto;
-  background-clip: padding-box;
-}
-
 .personal-title {
   font-weight: bold;
   color: grey;
