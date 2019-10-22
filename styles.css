@@ -30,3 +30,7 @@ li a{
   padding: 16px;
   text-decoration: none;
 }
+.logo-img{
+  width: 100%;
+  height: 200px;
+}
