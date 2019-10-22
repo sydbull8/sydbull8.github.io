@@ -4,3 +4,26 @@
   padding: 0;
   background-color: #353b87;
 }
+body{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+h1{
+  font-family: 'Amaranth', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+  color: #1c1f45;
+}
+#Label{
+  font-style: italic;
+  color: #6771ff;
+  font-weight: lighter;
+  text-align: center;
+}
+p{
+  color: #1c1f45;
+  font-weight: 200;
+}
