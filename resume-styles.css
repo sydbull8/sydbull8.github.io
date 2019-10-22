@@ -10,7 +10,6 @@ body{
   padding: 10px;
 }
 h1{
-  font-family: 'Amaranth', sans-serif;
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 2px;
@@ -26,4 +25,19 @@ h1{
 p{
   color: #1c1f45;
   font-weight: 200;
+}
+h1, h2, h3, h4, h5{
+    font-family: 'Amaranth', sans-serif;
+}
+h2{
+  background-color: #353b87;
+  color: white;
+  padding: 5px;
+}
+h4{
+  font-weight: bold;
+}
+h5{
+  font-weight: 100px;
+  font-style: italic;
 }
