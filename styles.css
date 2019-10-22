@@ -1,6 +1,6 @@
 body{
   max-width: 800px;
-  margin: 20px auto;
+  margin: auto;
   font-family: 'Archivo', sans-serif;
 }
 img{
@@ -48,4 +48,6 @@ h1{
 }
 p{
   text-align: center;
+  word-spacing: 2px;
+  font-style: italic;
 }
