@@ -13,11 +13,13 @@ li a{
   color: white;
   text-align: center;
   padding: 5px;
+  font-size: 25px;
 }
 .nav-bar li{
   display: inline-block;
 }
 .nav-bar > li:not(:last-child)::after{
   content: "|";
+  color: white;
   margin: 0 .25em;
 }
