@@ -5,8 +5,8 @@
   background-color: #353b87;
 }
 body{
-  margin: auto;
-  width: 50%;
+  margin: 25px auto;
+  width: 300px;
   padding: 10px;
 }
 h1{
@@ -25,6 +25,7 @@ h1{
 p{
   color: #1c1f45;
   font-weight: 200;
+  font-family: 'Archivo', sans-serif;
 }
 h1, h2, h3, h4, h5{
     font-family: 'Amaranth', sans-serif;
@@ -39,5 +40,15 @@ h4{
 }
 h5{
   font-weight: 100px;
+  font-style: italic;
+}
+#skills li{
+  display: inline-block;
+}
+#skills > li:not(:last-child)::after{
+  content: "|";
+  margin: 0 .25em;
+}
+.university{
   font-style: italic;
 }

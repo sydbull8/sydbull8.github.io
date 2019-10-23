@@ -24,11 +24,10 @@ ul {
   margin: 0 auto;
 }
 li a{
-  display: inline;
+  display: inline-block;
   color: white;
   text-align: center;
   padding: 5px;
-  text-decoration: none;
 }
 h1{
   text-transform: uppercase;
