@@ -2,3 +2,15 @@
   margin: 25px auto;
   width: 800px;
 }
+ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #353b87;
+}
+li a{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
