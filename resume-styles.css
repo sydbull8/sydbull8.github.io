@@ -6,7 +6,11 @@
 }
 .body{
   margin: 25px auto;
-  width: 300px;
+  width: 800px;
+}
+.intro img{
+  float: left;
+  margin: auto;
 }
 h1{
   text-transform: uppercase;
