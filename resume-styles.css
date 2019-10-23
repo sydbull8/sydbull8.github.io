@@ -33,12 +33,13 @@ h2{
   background-color: #353b87;
   color: white;
   padding: 5px;
+  text-align: center;
 }
 h4{
-  font-weight: bold;
+  font-style: bold;
 }
 h5{
-  font-weight: 100px;
+  font-weight: 10px;
   font-style: italic;
 }
 #skills li{
