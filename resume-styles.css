@@ -42,10 +42,10 @@ h5{
   font-weight: 10px;
   font-style: italic;
 }
-#skills li{
+.skills li{
   display: inline-block;
 }
-#skills > li:not(:last-child)::after{
+.skills > li:not(:last-child)::after{
   content: "|";
   margin: 0 .25em;
 }
