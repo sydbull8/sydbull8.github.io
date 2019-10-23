@@ -26,4 +26,9 @@ li a{
 }
 h5 {
   font-family: 'Amaranth', sans-serif;
+  font-weight: bold;
+}
+img{
+  margin: auto;
+  padding: 10px;
 }
