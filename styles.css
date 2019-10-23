@@ -13,6 +13,13 @@ ul {
   padding: 0;
   background-color: #353b87;
 }
+.nav-bar li{
+  display: inline-block;
+}
+.nav-bar > li:not(:last-child)::after{
+  content: "|";
+  margin: 0 .25em;
+}
 .col-5{
   float: left;
   width: 100%;

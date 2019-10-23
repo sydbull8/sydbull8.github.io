@@ -1,15 +1,21 @@
-.navigation{
+.nav-bar{
   list-style-type: none;
-
   margin: 0 auto;
   padding: 0;
   background-color: #353b87;
 }
-.navigation li a{
+.nav-bar li a{
   display: inline-block;
   text-align: center;
   padding: 5px;
   color: white;
+}
+.nav-bar li{
+  display: inline-block;
+}
+.nav-bar > li:not(:last-child)::after{
+  content: "|";
+  margin: 0 .25em;
 }
 .body{
   margin: 25px auto;
@@ -47,10 +53,10 @@ h2{
   text-align: center;
 }
 h4{
-  font-style: bold;
+  font-weight: bold;
 }
 h5{
-  font-weight: 10px;
+  font-weight: lighter;
   font-style: italic;
 }
 .skills li{

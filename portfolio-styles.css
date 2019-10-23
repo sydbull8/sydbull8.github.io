@@ -4,7 +4,6 @@
 }
 ul {
   list-style-type: none;
-
   margin: 0 auto;
   padding: 0;
   background-color: #353b87;
@@ -14,4 +13,11 @@ li a{
   color: white;
   text-align: center;
   padding: 5px;
+}
+.nav-bar li{
+  display: inline-block;
+}
+.nav-bar > li:not(:last-child)::after{
+  content: "|";
+  margin: 0 .25em;
 }
