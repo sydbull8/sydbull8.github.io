@@ -1,12 +1,12 @@
 .navigation{
   list-style-type: none;
-  display: inline-block;
+
   margin: 0 auto;
   padding: 0;
   background-color: #353b87;
 }
 .navigation li a{
-
+  display: inline-block;
   text-align: center;
   padding: 5px;
   color: white;

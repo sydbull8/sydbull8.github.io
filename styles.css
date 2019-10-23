@@ -9,7 +9,6 @@ img{
 }
 ul {
   list-style-type: none;
-  display: inline-block;
   margin: 0 auto;
   padding: 0;
   background-color: #353b87;
@@ -25,6 +24,7 @@ ul {
   margin: 0 auto;
 }
 li a{
+  display: inline-block;
   color: white;
   text-align: center;
   padding: 5px;
