@@ -23,6 +23,9 @@
   margin: 25px auto;
   width: 800px;
 }
+.intro{
+  padding-bottom: 20px;
+}
 .intro img{
   float: left;
   margin: auto;
