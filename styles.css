@@ -1,4 +1,4 @@
-body{
+.body{
   max-width: 800px;
   margin: auto;
   font-family: 'Archivo', sans-serif;
@@ -35,6 +35,7 @@ h1{
   letter-spacing: 2px;
   margin-bottom: 0;
   color: #1c1f45;
+  font-family:'Amaranth', sans-serif;
 }
 .row{
   padding-top: 10px;
